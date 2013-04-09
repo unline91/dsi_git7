@@ -470,3 +470,115 @@ Completed 200 OK in 1564ms (Views: 1564.1ms | ActiveRecord: 0.0ms)
 
 Started GET "/assets/custom.css?body=1" for 10.0.2.2 at 2013-04-09 13:03:44 +0100
 Served asset /custom.css - 200 OK (24ms)
+
+
+Started GET "/static_pages/home" for 10.0.2.2 at 2013-04-09 13:13:16 +0100
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+Compiled custom.css  (1143ms)  (pid 1573)
+Compiled application.css  (3ms)  (pid 1573)
+Completed 200 OK in 1512ms (Views: 1511.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 10.0.2.2 at 2013-04-09 13:13:17 +0100
+Served asset /custom.css - 200 OK (24ms)
+
+
+Started GET "/static_pages/home" for 10.0.2.2 at 2013-04-09 13:13:18 +0100
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 65ms (Views: 64.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 10.0.2.2 at 2013-04-09 13:13:18 +0100
+Served asset /custom.css - 304 Not Modified (4ms)
+
+
+Started GET "/static_pages/home" for 10.0.2.2 at 2013-04-09 13:13:20 +0100
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 89ms (Views: 88.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 10.0.2.2 at 2013-04-09 13:13:21 +0100
+Served asset /custom.css - 304 Not Modified (5ms)
+
+
+Started GET "/static_pages/home" for 10.0.2.2 at 2013-04-09 13:18:17 +0100
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+Compiled custom.css  (1254ms)  (pid 1573)
+Compiled application.css  (2ms)  (pid 1573)
+Completed 200 OK in 1605ms (Views: 1605.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 10.0.2.2 at 2013-04-09 13:18:18 +0100
+Served asset /custom.css - 200 OK (26ms)
+
+
+Started GET "/static_pages/home" for 10.0.2.2 at 2013-04-09 13:18:19 +0100
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 62ms (Views: 62.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 10.0.2.2 at 2013-04-09 13:18:19 +0100
+Served asset /custom.css - 304 Not Modified (36ms)
+
+
+Started GET "/static_pages/home" for 10.0.2.2 at 2013-04-09 13:18:49 +0100
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 60ms (Views: 59.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 10.0.2.2 at 2013-04-09 13:18:49 +0100
+Served asset /custom.css - 304 Not Modified (5ms)
+
+
+Started GET "/static_pages/home" for 10.0.2.2 at 2013-04-09 13:18:51 +0100
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 61ms (Views: 61.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 10.0.2.2 at 2013-04-09 13:18:52 +0100
+Served asset /custom.css - 304 Not Modified (4ms)
+
+
+Started GET "/static_pages/home" for 10.0.2.2 at 2013-04-09 13:19:27 +0100
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 90ms (Views: 89.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 10.0.2.2 at 2013-04-09 13:19:27 +0100
+Served asset /custom.css - 304 Not Modified (5ms)
+
+
+Started GET "/static_pages/home" for 10.0.2.2 at 2013-04-09 13:51:03 +0100
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 146ms (Views: 145.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 10.0.2.2 at 2013-04-09 13:51:03 +0100
+Served asset /custom.css - 304 Not Modified (33ms)
+
+
+Started GET "/static_pages/home" for 10.0.2.2 at 2013-04-09 13:59:09 +0100
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.4ms)
+Compiled custom.css  (1229ms)  (pid 1573)
+Compiled application.css  (3ms)  (pid 1573)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 1623ms (Views: 1623.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 10.0.2.2 at 2013-04-09 13:59:10 +0100
+Served asset /custom.css - 200 OK (77ms)
